@@ -1,8 +1,8 @@
 Isilah data pribadi : 
 
-Nama : 
-Alamat Email: 
-Waktu Mulai :
+Nama : Syaifullah   
+Alamat Email: syaifullahabel@gmail.com
+Waktu Mulai : 11.10 WIB
 Waktu Selesai :
 
 CARA PENGERJAAN!!!
@@ -49,3 +49,21 @@ PERTANYAAN !!
     - buatlah query untuk melihat total peserta yang berada dalam kelas frontend
     - buatlah query untuk menampilkan jumlah kehadiran tertinggi dan nilai tertinggi dalam kelas frontend
 
+JAWABAN 
+
+1. let number = [1,2,3,4,5,6,7,8,9,10,11,13,14,15]
+for (let num in number) {
+    if(num % 15 == 0){
+        document.writeln(`<p>${num}adalah fizzbuzz`)
+    }
+    else if (num  % 3 == 0) {
+        document.writeln(`<p>${num}adalah fizz</p>`)
+    }else if(num %5 == 0){
+        document.writeln(`<p>${num}adalah buzz</p>`)
+    }else{
+        document.writeln(`${num}`)
+    }
+}
+
+2. PERLU BELAJAR LAGI SAYA BELUM MENGERTI
+3. PERLU BELAJAR LAGI SAYA BELUM MENGERTI
